@@ -1,0 +1,22 @@
+{
+  "name": "next50yrs",
+  "version": "1.0.0",
+  "description": "Describe what you think will happen in the world of science, medicine and technology over the next 50 years.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon -r esm .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Halil Tezcan \"unitythemaker\" KARABULUT <unitythemaker+contact@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.15.0",
+    "fastify-static": "^4.0.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.7"
+  }
+}
